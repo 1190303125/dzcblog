@@ -1,0 +1,123 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>董梓灿 (Zican Dong) | Personal Academic Website</title>
+  <meta name="description" content="Personal academic website: research interests, publications, news, and background." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=20260316-8" />
+</head>
+<body>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-grid"></div>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="#top">Zican Dong</a>
+      <button
+        id="nav-toggle"
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="nav-links"
+        aria-label="Toggle navigation"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div id="nav-links" class="nav-links">
+        <a href="#research">Research</a>
+        <a href="#news">News</a>
+        <a href="#about">Background</a>
+        <a href="#publications">Publications</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top" class="container">
+    <section class="hero">
+      <img class="avatar" src="image.png" alt="Profile photo of Dong Zican" />
+      <div class="hero-content">
+        <p class="tag">PhD Student in Artificial Intelligence</p>
+        <h1>董梓灿 (Zican Dong)</h1>
+        <p class="hero-desc">
+          PhD student in Gaoling School of Artificial Intelligence at Renmin University of China. My research focuses on long-context language modeling, positional encoding and extrapolation, attention mechanisms, and Mixture-of-Experts (MoE) models.
+        </p>
+        <div class="cta-row">
+          <a class="btn primary" href="https://scholar.google.com/citations?user=gnQfRVMAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+          <a class="btn ghost" href="cv-llt.pdf" target="_blank" rel="noopener noreferrer">View CV</a>
+        </div>
+        <ul class="quick-info">
+          <li><strong>Email</strong><span>dongzican@ruc.edu.cn</span></li>
+          <li><strong>GitHub</strong><a href="https://github.com/1190303125" target="_blank" rel="noopener noreferrer">github.com/1190303125</a></li>
+          <li><strong>Phone</strong><span>+86 17719371718</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="research" class="card reveal">
+      <h2>Research Interests</h2>
+      <p class="research-overview">
+        I work on large language models, long-context modeling, and model architectures.
+      </p>
+      <ul id="research-list" class="research-list"></ul>
+    </section>
+
+    <section id="news" class="card reveal">
+      <h2>News</h2>
+      <ul id="news-list" class="news-list"></ul>
+    </section>
+
+    <section id="about" class="card reveal">
+      <h2>Background</h2>
+      <div class="timeline">
+        <article>
+          <h3>Education</h3>
+          <p>Renmin University of China · AI · PhD (2023 - 2028, ongoing)</p>
+          <p>Harbin Institute of Technology · CS · BEng (2019 - 2023)</p>
+        </article>
+        <article>
+          <h3>Internship Experience</h3>
+          <p>Baichuan (2024.01 - 2025.02)</p>
+          <p>ModelBest (2025.04 - 2025.12)</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="publications" class="card reveal">
+      <div class="section-head">
+        <h2>Publications</h2>
+        <div class="pub-toolbar">
+          <span class="pub-toolbar-label">View</span>
+          <div class="pub-view-toggle" role="group" aria-label="Publication view mode">
+            <button id="pub-view-cards" type="button" class="pub-view-btn is-active" data-view="cards">Cards</button>
+            <button id="pub-view-list" type="button" class="pub-view-btn" data-view="list">List</button>
+          </div>
+        </div>
+      </div>
+      <div class="pub-group">
+        <h3>Accepted Conference Papers</h3>
+        <ul id="pub-conf" class="pub-list"></ul>
+      </div>
+      <div class="pub-group">
+        <h3>arXiv / Preprints</h3>
+        <ul id="pub-arxiv" class="pub-list"></ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Zican Dong</p>
+  </footer>
+
+  <script src="script.js?v=20260316-17"></script>
+</body>
+</html>
+
+
