@@ -1,6 +1,7 @@
 ﻿const MY_NAME_NORMALIZED = normalizeName("Zican Dong");
 
 const news = [
+  "2026.05: ForesightKV was accepted to ICML 2026.",
   "2025.12: Completed internship on foundation models at ModelBest.",
   "2025.08: Multiple papers accepted by ACL / EMNLP / NeurIPS.",
   "2024.06: Long-context and positional-encoding work selected as NeurIPS Spotlight.",
@@ -310,6 +311,7 @@ function normalizeVenueLabel(rawVenue) {
   if (/LREC\/COLING/i.test(venue)) return "LREC/COLING";
   if (/\bACL\b/i.test(venue) || /Association for Computational Linguistics/i.test(venue)) return "ACL";
   if (/EMNLP/i.test(venue)) return "EMNLP";
+  if (/ICML|International Conference on Machine Learning/i.test(venue)) return "ICML";
   if (/NeurIPS/i.test(venue)) return "NeurIPS";
   if (/CoRR|arXiv/i.test(venue)) return "CoRR";
   return venue;
