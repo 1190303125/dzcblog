@@ -1,6 +1,7 @@
 ﻿const MY_NAME_NORMALIZED = normalizeName("Zican Dong");
 
 const news = [
+  "2026.06: Joined Ant Group's Language Foundation team for an internship.",
   "2026.05: ForesightKV was accepted to ICML 2026.",
   "2025.12: Completed internship on foundation models at ModelBest.",
   "2025.08: Multiple papers accepted by ACL / EMNLP / NeurIPS.",
