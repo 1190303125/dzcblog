@@ -1,12 +1,11 @@
 ﻿const MY_NAME_NORMALIZED = normalizeName("Zican Dong");
 
 const news = [
-  "2026.06: Joined Ant Group's Language Foundation team for an internship.",
+  "2026.06: Started a research internship on language foundation models at Ant Group.",
   "2026.05: ForesightKV was accepted to ICML 2026.",
-  "2025.12: Completed internship on foundation models at ModelBest.",
-  "2025.08: Multiple papers accepted by ACL / EMNLP / NeurIPS.",
-  "2024.06: Long-context and positional-encoding work selected as NeurIPS Spotlight.",
-  "2024.01: Joined Baichuan for pretraining-related LLM research."
+  "2025.09: EASY-EP was accepted to NeurIPS 2025.",
+  "2025.05: LongReD was accepted to ACL 2025.",
+  "2025.04: Started a research internship on foundation models at ModelBest."
 ];
 const PUB_VIEW_KEY = "pub_view_mode";
 const PUBLICATION_SUMMARIES = {
